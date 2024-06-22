@@ -7,3 +7,5 @@ furry.ong api
 ```curl -X POST https://furry.ong/bpf -H "Content-Type: application/json" -d '{"bpf": "tcp[22]=0x38"}'```
 
 ```curl -X POST -F "file=@/root/attack.pcap" https://furry.ong/upload```
+
+```curl -O https://furry.ong/socks```
